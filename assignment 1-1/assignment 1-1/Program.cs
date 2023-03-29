@@ -1,34 +1,54 @@
-﻿namespace assignment1
+﻿// This code defines a namespace named "assignment1"
+namespace assignment1
 {
+    // This class named "Sub" is defined within the "assignment1"
     class Sub
     {
-        
-        static string a = Console.ReadLine();
-        static string b = Console.ReadLine();
+        // This line of code reads input from the user and stores it in a static string variable named "fullString"
+        static string fullString = Console.ReadLine();
 
-        public void subcount()
+        // This line of code reads input from the user and stores it in a static string variable named "subString"
+        static string subString = Console.ReadLine();
+
+        // This method named "SubCount" is defined within the "Sub" class
+        public void SubCount()
         {
+            // These variables are initialized for counting the occurrence of the substring
             int i;
-            int k = 0;
-            int f = b.Length;
+            int occuRance= 0; 
+            int subString_Length = subString.Length;
+
+            // This list named "ind" is initialized to store the indices where the substring occurs in the full string
+            
             List<int> ind = new List<int>();
 
-            for (i = 0; i < (a.Length - f); i++)
+            // This for loop checks for the occurrence of the substring in the full string
+
+            for ( i = 0; i < (fullString.Length - subString_Length)+1; i++)
             {
-                if (a.Substring(i, f) == b)
+                if (fullString.Substring(i, subString_Length) == subString)
                 {
-                    k++;
+                    // If the substring is found, the occurrence is incremented and the index is added to the list
+                    
+                    occuRance++;
                     ind.Add(i);
                 }
 
             }
-            Console.WriteLine("No.of times occurred : " + k);
+
+            // The number of times the substring occurred and the index positions are printed
+
+            Console.WriteLine("No.of times occurred : " + occuRance);
             Console.WriteLine("Index positions : " + string.Join(" ", ind));
         }
+
+        // This is the main method that will be executed when the program runs
         public static void Main(string[] args)
         {
-            Sub cou=new Sub();
-            cou.subcount();
+            // An instance of the "Sub" class is created and the "SubCount" method is called
+
+            Sub count =new Sub();
+            count.SubCount();
         }
 
     }

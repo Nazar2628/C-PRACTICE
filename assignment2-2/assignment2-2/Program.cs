@@ -1,25 +1,25 @@
-﻿namespace assignment
+﻿namespace Assignment
 {
-    class Highestcproduct
+    class Highestproduct
     {
-        static String num = Console.ReadLine();
+        static String longNumber = Console.ReadLine();
 
         public void highestproduct()
         {
 
             long largest = 0;
-            List<string> substrings = new List<string>();
-            List<string> K = new List<string>();
+            List<string> subStrings = new List<string>();
+            List<string> subsetList = new List<string>();
             List<string> L = new List<string>();
 
-            for (int i = 0; i < num.Length - 4; i++)
+            for (int i = 0; i < longNumber.Length - 4; i++)
             {
 
 
-                String str_num = num.Substring(i, 4);
-                substrings.Add(str_num);
+                String str_num = longNumber.Substring(i, 4);
+                subStrings.Add(str_num);
             }
-            foreach (string j in substrings)
+            foreach (string j in subStrings)
             {
                 int product = 1;
                 foreach (char i in j)
@@ -29,11 +29,11 @@
                 if (product > largest)
                 {
                     largest = product;
-                    K.Add(j);
+                    subsetList.Add(j);
                 }
 
             }
-            foreach (char i in K.Last())
+            foreach (char i in subsetList.Last())
             {
                 L.Add(i.ToString());
             }
@@ -42,8 +42,8 @@
         }
         public static void Main(string[] args)
         {
-            Highestcproduct cou = new Highestcproduct();
-            cou.highestproduct();
+            Highestproduct Result = new Highestproduct();
+            Result.highestproduct();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace FloattoBinary
         {
             Console.Write("Enter the Decimal Number : ");
             float binaryNUmber1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Second Binary Number");
+            Console.WriteLine("Enter Second Binary Number : ");
             float binaryNumber2 = float.Parse(Console.ReadLine());
             Program obj = new Program();
             string firstBinayNum = obj.Convertbinary(binaryNUmber1);
@@ -44,7 +44,6 @@ namespace FloattoBinary
             string[] dates2 = m.Split('.');
             string binary4 = dates2[0];
             string binary2 = dates2[1];
-            int number = int.Parse(binary3);
             List<string> ind = new List<string>();
             int maxLength = Math.Max(binary1.Length, binary2.Length);
             int maxLength1 = Math.Max(binary3.Length, binary4.Length);
@@ -101,9 +100,9 @@ namespace FloattoBinary
             }
             return result;
         }
-        public void ConvertBinaryToInteger(string mantissa, string binary)
+        public void ConvertBinaryToInteger(string decimalvalue, string binary)
         {
-            int position = binary.Length - mantissa.Length;
+            int position = binary.Length - decimalvalue.Length;
             string binaryNumber = binary.Substring(0, position) + "." + binary.Substring(position);
             Console.WriteLine($"addition of two binaries is {binaryNumber}");
             string[] dates = binaryNumber.Split('.');
