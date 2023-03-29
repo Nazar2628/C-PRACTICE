@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\refint\assignment 1-1.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\ref\assignment 1-1.dll

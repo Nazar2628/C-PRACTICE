@@ -1,0 +1,18 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\LOCAL VARIABLE.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\LOCAL VARIABLE.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\LOCAL VARIABLE.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\LOCAL VARIABLE.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\LOCAL VARIABLE.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\refint\LOCAL VARIABLE.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\ref\LOCAL VARIABLE.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\dll.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\bin\Debug\net7.0\dll.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\LOCAL VARIABLE\LOCAL VARIABLE\obj\Debug\net7.0\LOCAL VARIABLE.csproj.CopyComplete

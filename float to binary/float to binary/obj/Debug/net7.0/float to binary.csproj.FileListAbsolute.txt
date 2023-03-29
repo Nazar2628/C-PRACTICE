@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\bin\Debug\net7.0\float to binary.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\bin\Debug\net7.0\float to binary.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\bin\Debug\net7.0\float to binary.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\bin\Debug\net7.0\float to binary.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\bin\Debug\net7.0\float to binary.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\refint\float to binary.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\float to binary.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\float to binary\float to binary\obj\Debug\net7.0\ref\float to binary.dll

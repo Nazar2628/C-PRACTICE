@@ -1,0 +1,18 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\ConsoleApp4 dll.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\ConsoleApp4 dll.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\ConsoleApp4 dll.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\ConsoleApp4 dll.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\ConsoleApp4 dll.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\dll.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\bin\Debug\net7.0\dll.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.csproj.CopyComplete
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\refint\ConsoleApp4 dll.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ConsoleApp4 dll.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\ConsoleApp4 dll\ConsoleApp4 dll\obj\Debug\net7.0\ref\ConsoleApp4 dll.dll

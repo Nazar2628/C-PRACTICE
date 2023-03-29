@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\bin\Debug\net7.0\shared assembly.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\bin\Debug\net7.0\shared assembly.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\bin\Debug\net7.0\shared assembly.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\bin\Debug\net7.0\shared assembly.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\bin\Debug\net7.0\shared assembly.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\refint\shared assembly.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\shared assembly.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\shared assembly\shared assembly\obj\Debug\net7.0\ref\shared assembly.dll

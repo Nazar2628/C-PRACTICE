@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\bin\Debug\net7.0\Strings immutable.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\bin\Debug\net7.0\Strings immutable.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\bin\Debug\net7.0\Strings immutable.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\bin\Debug\net7.0\Strings immutable.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\bin\Debug\net7.0\Strings immutable.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\refint\Strings immutable.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\Strings immutable.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\Strings immutable\Strings immutable\obj\Debug\net7.0\ref\Strings immutable.dll
