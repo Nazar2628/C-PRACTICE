@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\bin\Debug\net7.0\out assignment.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\bin\Debug\net7.0\out assignment.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\bin\Debug\net7.0\out assignment.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\bin\Debug\net7.0\out assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\bin\Debug\net7.0\out assignment.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\refint\out assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\out assignment.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\out assignment\obj\Debug\net7.0\ref\out assignment.dll
