@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\bin\Debug\net7.0\Is and As assignment.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\bin\Debug\net7.0\Is and As assignment.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\bin\Debug\net7.0\Is and As assignment.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\bin\Debug\net7.0\Is and As assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\bin\Debug\net7.0\Is and As assignment.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\refint\Is and As assignment.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\Is and As assignment.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\out assignment\Is and As assignment\obj\Debug\net7.0\ref\Is and As assignment.dll

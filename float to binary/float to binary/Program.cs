@@ -1,29 +1,39 @@
 ﻿
-namespace FloattoBinary
+namespace FloatToBinary
 {
-    class Program
+    class FloatToBinary
     {
         static void Main(string[] args)
         {
             Console.Write("Enter the Decimal Number : ");
-            float binaryNUmber1 = float.Parse(Console.ReadLine());
+            float binaryNumber1 = float.Parse(Console.ReadLine());
             Console.WriteLine("Enter Second Binary Number : ");
             float binaryNumber2 = float.Parse(Console.ReadLine());
-            Program obj = new Program();
-            string firstBinayNum = obj.Convertbinary(binaryNUmber1);
-            string secondBinaryNum = obj.Convertbinary(binaryNumber2);
-            string bigString = obj.SplitBinary(firstBinayNum, secondBinaryNum);
-            string[] dates = bigString.Split(',');
-            string binaryValue = obj.AdditionOfBinary(dates[0], dates[1]);
-            obj.ConvertBinaryToInteger(dates[2], binaryValue);
+            FloatToBinary obj = new FloatToBinary();
+            string firstBinayNumber = obj.ConvertToBinary(binaryNumber1);
+            string secondBinaryNumber = obj.ConvertToBinary(binaryNumber2);
+            string splitingOfBinary = obj.SplitBinary(firstBinayNumber, secondBinaryNumber);
+            string[] binaryValuesOfNumbers = splitingOfBinary.Split(',');
+            string additionOfBinaryValue = obj.AdditionOfBinary(binaryValuesOfNumbers[0], binaryValuesOfNumbers[1]);
+            obj.ConvertBinaryToInteger(binaryValuesOfNumbers[2], additionOfBinaryValue);
         }
-        public string Convertbinary(float num)
+
+        /// <summary>
+                /// this method convert the numeric into a binary . 
+                /// initially it will input as float number --> converts it into a string -->spliting a string from a dot -->
+                /// now converting both exponent and decimallength of float number into binary separtely and appending this values in a array
+                /// now join the elements of array through string.join method
+                /// </summary>
+                /// <param name="numeric"></param>
+                /// <returns></returns>
+                /// 
+        public string ConvertToBinary(float num)
         {
-            string a = num.ToString();
-            string[] aList = a.Split(".");
+            string stringNumber = num.ToString();
+            string[] splitingNumber = stringNumber.Split(".");
             string Result = string.Empty;
-            string[] binary = new string[0];
-            foreach (string b in aList)
+            string[] binaryList = new string[0];
+            foreach (string b in splitingNumber)
             {
                 int number = int.Parse(b);
                 for (int i = 0; number > 0; i++)
@@ -31,43 +41,62 @@ namespace FloattoBinary
                     Result = number % 2 + Result;
                     number = number / 2;
                 }
-                binary = binary.Append(Result).ToArray();
+                binaryList = binaryList.Append(Result).ToArray();
             }
-            string z = string.Join(".", binary);
-            return z;
+            string binaryNumber = string.Join(".", binaryList);
+            return binaryNumber;
         }
-        public string SplitBinary(string n, string m)
+
+        /// <summary>
+        /// initially need to split the firstBinary from a dot and assign it to a array1 and also need to perform same procedure to secondBinary
+        /// through array index method , assign the binarystring elements into new strings which gives exponents and decimallesgth of float number
+        /// now ordering both decimallength and exponents separetely of two binarystrings(adding 0 to binary such that both the lengths are need to be equal)
+        /// now add this elements into new list
+        /// </summary>
+        /// <param name="firstBinaryNumber"></param>
+        /// <param name="secondBinaryNumber"></param>
+        /// <returns></returns>
+
+        public string SplitBinary(string firstBinaryNumber, string secondBinaryNumber)
         {
-            string[] dates = n.Split('.');
-            string binary3 = dates[0];
-            string binary1 = dates[1];
-            string[] dates2 = m.Split('.');
-            string binary4 = dates2[0];
-            string binary2 = dates2[1];
-            List<string> ind = new List<string>();
-            int maxLength = Math.Max(binary1.Length, binary2.Length);
-            int maxLength1 = Math.Max(binary3.Length, binary4.Length);
-            while (binary1.Length < maxLength)
+            string[] firstBinary = firstBinaryNumber.Split('.');
+            string firstIntegerBinary = firstBinary[0];
+            string firstDecimalBinary = firstBinary[1];
+            string[] secondBinary = secondBinaryNumber.Split('.');
+            string secondIntergerBinary = secondBinary[0];
+            string secondDecimalBinary = secondBinary[1];
+            List<string> binaryValues = new List<string>();
+            int maxLengthOfDecimal = Math.Max(firstDecimalBinary.Length, secondDecimalBinary.Length);
+            int maxLengthOfInteger = Math.Max(firstIntegerBinary.Length, secondIntergerBinary.Length);
+            while (firstDecimalBinary.Length < maxLengthOfDecimal)
             {
-                binary1 = "0" + binary1;
+                firstDecimalBinary = "0" + firstDecimalBinary;
             }
-            while (binary2.Length < maxLength)
+            while (secondDecimalBinary.Length < maxLengthOfDecimal)
             {
-                binary2 = "0" + binary2;
+                secondDecimalBinary = "0" + secondDecimalBinary;
             }
-            while (binary3.Length < maxLength1)
+            while (firstIntegerBinary.Length < maxLengthOfInteger)
             {
-                binary3 = "0" + binary3;
+                firstIntegerBinary = "0" + firstIntegerBinary;
             }
-            while (binary4.Length < maxLength1)
+            while (secondIntergerBinary.Length < maxLengthOfInteger)
             {
-                binary4 = "0" + binary4;
+                secondIntergerBinary = "0" + secondIntergerBinary;
             }
-            ind.Add((binary3 + binary1));
-            ind.Add((binary4 + binary2));
-            ind.Add(binary1);
-            return string.Join(",", ind);
+            binaryValues.Add((firstIntegerBinary + firstDecimalBinary));
+            binaryValues.Add((secondIntergerBinary + secondDecimalBinary));
+            binaryValues.Add(firstDecimalBinary);
+            return string.Join(",", binaryValues);
         }
+
+        /// <summary>
+        /// this method defines the addition two binary strings
+        /// </summary>
+        /// <param name="binary1"></param>
+        /// <param name="binary2"></param>
+        /// <returns></returns>
+        /// 
         public string AdditionOfBinary(string binary1, string binary2)
         {
             int maxLength = Math.Max(binary1.Length, binary2.Length);
@@ -100,16 +129,25 @@ namespace FloattoBinary
             }
             return result;
         }
-        public void ConvertBinaryToInteger(string decimalvalue, string binary)
+
+        /// <summary>
+        /// here taking inputs are decimalLength of ordered binarystring  and binarystring
+        /// through length of decimalLength , we can define the position of dot in binary string
+        /// after adding dot at correct position, then we can split the string into two parts and can convert those into numeric
+        /// and again join this numbers by dot 
+        /// </summary>
+        /// <param name="decimalLength"></param>
+        /// <param name="binary"></param>
+        public void ConvertBinaryToInteger(string decimalLength, string binary)
         {
-            int position = binary.Length - decimalvalue.Length;
+            int position = binary.Length - decimalLength.Length;
             string binaryNumber = binary.Substring(0, position) + "." + binary.Substring(position);
             Console.WriteLine($"addition of two binaries is {binaryNumber}");
-            string[] dates = binaryNumber.Split('.');
-            string x1 = dates[0];
-            string y1 = dates[1];
-            int number = Convert.ToInt32(x1, 2);
-            int number2 = Convert.ToInt32(y1, 2);
+            string[] splitingTotalbinary = binaryNumber.Split('.');
+            string totalIntergerValue = splitingTotalbinary[0];
+            string totalDecimalValue = splitingTotalbinary[1];
+            int number = Convert.ToInt32(totalIntergerValue, 2);
+            int number2 = Convert.ToInt32(totalDecimalValue, 2);
             string integer = number + "." + number2;
             Console.WriteLine($"addition of two numbers is {integer}");
         }

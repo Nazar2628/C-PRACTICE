@@ -315,25 +315,132 @@
 //        Console.WriteLine("AXIX Bank Withdraw Money");
 //    }
 //}
-class met 
-{
-   
+//class met 
+//{
 
-    public int method1()
+
+//    public int method1()
+//    {
+//        int a = 100;
+
+//    }
+//    public int method2(ref a)
+//    {
+//        int b = a+ 2;
+//        return b;
+//    }
+//    public static void Main(String[] args)
+//    {
+//        met met = new met();
+//        Console.WriteLine( met.method2());
+//    }
+//}
+
+
+//using System;
+//namespace Polymorphism
+//{
+//    class A
+//    {
+//        public void Test() { Console.WriteLine("A::Test()"); }
+//    }
+
+//    class B : A
+//    {
+//        public new void Test() { Console.WriteLine("B::Test()"); }
+//    }
+
+//    class C : B
+//    {
+//        public new void Test() { Console.WriteLine("C::Test()"); }
+//    }
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+
+//            A a = new A();
+//            B b = new B();
+//            C c = new C();
+
+//            a.Test(); // output --> "A::Test()"
+//            b.Test(); // output --> "B::Test()"
+//            c.Test(); // output --> "C::Test()"
+
+//            a = new B();
+//            a.Test(); // output --> "A::Test()"
+
+//            b = new C();
+//            b.Test(); // output --> "B::Test()"
+
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+
+//using Extention;
+//using Extention1;
+
+//namespace Extention
+//{
+//    public class ExDemo
+//    {
+//        public void ex1()
+//        {
+//            Console.WriteLine("Main Class Method");
+//        }
+//    }
+
+//}
+
+//namespace Extention1
+//{
+//    public static class Extention1
+//    {
+//        public static void extension1(this ExDemo ex)
+//        {
+//            Console.WriteLine("Extented Class");
+//        }
+//    }
+//}
+
+//namespace Result
+//{
+//    class A : ExDemo
+//    {
+//        public void extented()
+//        {
+//            Console.WriteLine();
+//        }
+//        public static void Main (string[] args)
+//        {
+//            A obj1 = new A();
+//            obj1.extension1();
+//        }
+//    }
+//}
+
+
+using System.IO;
+using System.IO.Pipes;
+using System.Text;
+
+namespace System.IO
+{
+    class FileStream1
     {
-        int a = 100;
-        ref a;
-        
-    }
-    public int method2(ref a)
-    {
-        int b = a+ 2;
-        return b;
-    }
-    public static void Main(String[] args)
-    {
-        met met = new met();
-        Console.WriteLine( met.method2());
+        public static void Main(string[] args)
+        {
+            FileStream fs = new FileStream(@"D:", FileAccess.Read);
+            //using (StreamWriter writer = new StreamWriter(fs))
+            //{
+            //    writer.Write("Sample Text ");
+            //}
+            byte[] bdata = Encoding.Default.GetBytes("wriiting in a file");
+            fs.Write(bdata, 0, bdata.Length);
+            fs.Close();
+        }
     }
 }
-

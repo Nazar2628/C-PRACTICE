@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\bin\Debug\net7.0\file stream.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\bin\Debug\net7.0\file stream.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\bin\Debug\net7.0\file stream.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\bin\Debug\net7.0\file stream.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\bin\Debug\net7.0\file stream.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\refint\file stream.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\file stream.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\file stream\file stream\obj\Debug\net7.0\ref\file stream.dll

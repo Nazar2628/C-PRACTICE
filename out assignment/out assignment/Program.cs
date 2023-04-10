@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 namespace outparameter
 {
-    class Outparameter
+    class OutParameter
 
     {
         string k = "6565246";

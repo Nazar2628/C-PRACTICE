@@ -1,21 +1,27 @@
-﻿namespace Assignment
+﻿namespace CartesianProduct
 {
-    class Highestproduct
+    class CartesianProduct
     {
-        static String longNumber = Console.ReadLine();
+        /// <summary>
+                /// this method Highest product of four consecutive Number . 
+                /// initially it will taake input as longNumber --> it makes subsets with length four --> making a list of highest product consecutive Numbers -->
+                /// changing the largest product
+                /// now join the elements of array through string.join method with "*"
+                /// </summary>
+                /// <param name="longNumber"></param>
+                /// <returns></returns>
+        /// 
 
-        public void highestproduct()
+        public void HighestProduct(string longNumber)
         {
 
-            long largest = 0;
+            long largestProduct = 0;
             List<string> subStrings = new List<string>();
-            List<string> subsetList = new List<string>();
-            List<string> L = new List<string>();
+            List<string> highestProductList = new List<string>();
+            List<string> highestProductValues = new List<string>();
 
-            for (int i = 0; i < longNumber.Length - 4; i++)
+            for (int i = 0; i < longNumber.Length - 3; i++)
             {
-
-
                 String str_num = longNumber.Substring(i, 4);
                 subStrings.Add(str_num);
             }
@@ -26,24 +32,26 @@
                 {
                     product = product * Int32.Parse(i.ToString());
                 }
-                if (product > largest)
+                if (product > largestProduct)
                 {
-                    largest = product;
-                    subsetList.Add(j);
+                    largestProduct = product;
+                    highestProductList.Add(j);
                 }
 
             }
-            foreach (char i in subsetList.Last())
+            foreach (char i in highestProductList.Last())
             {
-                L.Add(i.ToString());
+                highestProductValues.Add(i.ToString());
             }
 
-            Console.WriteLine("output: " + string.Join("*", L) + " = " + largest);
+            Console.WriteLine("output: " + string.Join("*", highestProductValues) + " = " + largestProduct);
         }
         public static void Main(string[] args)
         {
-            Highestproduct Result = new Highestproduct();
-            Result.highestproduct();
+            Console.WriteLine("Enter the longNumber :");
+            String longNumber = Console.ReadLine();
+            CartesianProduct Result = new CartesianProduct();
+            Result.HighestProduct(longNumber);
         }
     }
 }
