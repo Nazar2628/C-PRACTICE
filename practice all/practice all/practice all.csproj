@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="assignment 1-1">
+      <HintPath>..\..\assignment 1-1\assignment 1-1\bin\Debug\net7.0\assignment 1-1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

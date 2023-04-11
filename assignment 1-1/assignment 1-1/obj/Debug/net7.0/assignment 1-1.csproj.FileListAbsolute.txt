@@ -13,3 +13,6 @@ C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Deb
 C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.pdb
 C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.genruntimeconfig.cache
 C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\ref\assignment 1-1.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\practice all.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\bin\Debug\net7.0\practice all.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\assignment 1-1\assignment 1-1\obj\Debug\net7.0\assignment 1-1.csproj.CopyComplete

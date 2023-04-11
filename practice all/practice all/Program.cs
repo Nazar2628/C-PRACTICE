@@ -423,24 +423,24 @@
 //}
 
 
-using System.IO;
-using System.IO.Pipes;
-using System.Text;
+//using System.IO;
+//using System.IO.Pipes;
+//using System.Text;
 
-namespace System.IO
-{
-    class FileStream1
-    {
-        public static void Main(string[] args)
-        {
-            FileStream fs = new FileStream(@"D:", FileAccess.Read);
-            //using (StreamWriter writer = new StreamWriter(fs))
-            //{
-            //    writer.Write("Sample Text ");
-            //}
-            byte[] bdata = Encoding.Default.GetBytes("wriiting in a file");
-            fs.Write(bdata, 0, bdata.Length);
-            fs.Close();
-        }
-    }
-}
+//namespace System.IO
+//{
+//    class FileStream1
+//    {
+//        public static void Main(string[] args)
+//        {
+//            FileStream fs = new FileStream(@"D:", FileAccess.Read);
+//            //using (StreamWriter writer = new StreamWriter(fs))
+//            //{
+//            //    writer.Write("Sample Text ");
+//            //}
+//            byte[] bdata = Encoding.Default.GetBytes("wriiting in a file");
+//            fs.Write(bdata, 0, bdata.Length);
+//            fs.Close();
+//        }
+//    }
+//}

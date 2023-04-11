@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="practice all">
+      <HintPath>..\..\practice all\practice all\bin\Debug\net7.0\practice all.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

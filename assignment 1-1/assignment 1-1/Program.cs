@@ -1,7 +1,7 @@
 ﻿
 namespace CountOfSubString
 {
-    class CountOfSubString
+    public class Class1
     {
        
         /// <summary>
@@ -42,7 +42,8 @@ namespace CountOfSubString
 
             // An instance of the "Sub" class is created and the "SubCount" method is called
 
-            CountOfSubString count =new CountOfSubString();
+            Class1 count =new Class1();
+            count.NewMethod();
             count.SubCount(fullString,subString);
         }
 

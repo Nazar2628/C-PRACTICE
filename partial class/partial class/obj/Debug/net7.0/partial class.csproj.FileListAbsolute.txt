@@ -1,0 +1,15 @@
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\bin\Debug\net7.0\partial class.exe
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\bin\Debug\net7.0\partial class.deps.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\bin\Debug\net7.0\partial class.runtimeconfig.json
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\bin\Debug\net7.0\partial class.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\bin\Debug\net7.0\partial class.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.csproj.AssemblyReference.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.AssemblyInfoInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.AssemblyInfo.cs
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.csproj.CoreCompileInputs.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\refint\partial class.dll
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.pdb
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\partial class.genruntimeconfig.cache
+C:\Users\Nazar Basha Shaik\Desktop\C sharp\partial class\partial class\obj\Debug\net7.0\ref\partial class.dll
