@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "practice all/1.0.0": {
+        "dependencies": {
+          "assignment 1-1": "1.0.0.0"
+        },
         "runtime": {
           "practice all.dll": {}
+        }
+      },
+      "assignment 1-1/1.0.0.0": {
+        "runtime": {
+          "assignment 1-1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "practice all/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "assignment 1-1/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

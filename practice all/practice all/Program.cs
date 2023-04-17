@@ -444,3 +444,224 @@
 //        }
 //    }
 //}
+//namespace Array
+//{
+//    class Array
+//    {
+//        public static void Main(string[] args)
+//        {
+//            int[] array = { 1, 3, 95, 99, 35, 9 };
+//            int[] array1 = { 2, 35, 35, 648, 3, 5 };
+//            var combinedList = new List<int>();
+//            combinedList.AddRange(array);
+//            combinedList.AddRange(array1);
+//            Console.WriteLine(array.Concat(array1).ToArray());
+//            foreach (int a in (array.Concat(array1)))
+//            {
+//                Console.Write(a+" ");
+//            }
+//        }
+//    }
+
+//}
+
+
+//namespace OptionalParameter
+//{
+//    class CheckingOptionalParamete
+//    {
+//        public void CheckingOptionalParameter(int b, [Optional] int c)
+//        {
+//            Console.WriteLine("optional");
+
+//        }
+
+//        public void CheckingOptionalParameter(int a)
+//        {
+//            Console.WriteLine("first");
+//        }
+
+//        public void CheckingOptionalParameter(int x,int y,int z)
+//        {
+//            Console.WriteLine(x+y+z);
+//            Console.WriteLine(x);
+//        }
+
+
+
+//        public static void Main(string[] args)
+//        {
+//           CheckingOptionalParamete checking=new CheckingOptionalParamete();
+//            checking.CheckingOptionalParameter(1);
+//            checking.CheckingOptionalParameter(y:2,x:3,z:5);
+
+//        }
+//    }
+//}
+
+//using System;
+//using System.Collections.Generic;
+//namespace GenericCollections
+//{
+//    public class GenericSortedDictionaryDemo
+//    {
+//        public static void Main(string[] args)
+//        {
+//            LinkedList<string> linkedList = new LinkedList<string>();
+//            linkedList.AddLast("One");
+//            linkedList.AddLast("Two");
+//            linkedList.AddLast("Three");
+//            linkedList.AddLast("Four");
+//            linkedList.AddFirst("Five"); //Added to first index
+//            Console.WriteLine("SortedDictionary Elements: ");
+//            foreach (var item in linkedList)
+//            {
+//                Console.WriteLine($"{item} ");
+//            }
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+//using System;
+//using System.Collections.Generic;
+//namespace GenericCollections
+//{
+//    public class GenericSortedListDemo
+//    {
+//        public static void Main(string[] args)
+//        {
+//            SortedList<int, string> sortedList = new SortedList<int, string>();
+//            sortedList.Add(1, "One");
+//            sortedList.Add(5, "Five");
+//            sortedList.Add(2, "Two");
+//            sortedList.Add(4, "Four");
+//            sortedList.Add(3, "Three");
+
+
+//            Console.WriteLine("SortedList Elements: ");
+//            foreach (KeyValuePair<int, string> kvp in sortedList)
+//            {
+//                Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
+//            }
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+//using System;
+//using System.Collections.Generic;
+//namespace GenericCollections
+//{
+//    public class GenericSortedDictionaryDemo
+//    {
+//        public static void Main(string[] args)
+//        {
+//            SortedDictionary<int, string> sortedDictionary = new SortedDictionary<int, string>();
+//            sortedDictionary.Add(1, "One");
+//            sortedDictionary.Add(5, "Five");
+//            sortedDictionary.Add(2, "Two");
+//            sortedDictionary.Add(4, "Four");
+//            sortedDictionary.Add(3, "Three");
+//            sortedDictionary.Remove(1);
+
+//            Console.WriteLine("SortedDictionary Elements: ");
+//            foreach (KeyValuePair<int, string> i in sortedDictionary)
+//            {
+//                Console.WriteLine($"Key: {i.Key}, Value: {i.Value}");
+//            }
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+//using System;
+//using System.Collections.Generic;
+//namespace GenericCollections
+//{
+//    public class GenericDictionaryDemo
+//    {
+//        public static void Main(string[] args)
+//        {
+//            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+//            dictionary.Add(1, "One");
+//            dictionary.Add(2, "Two");
+//            dictionary.Add(3, "Three");
+//            dictionary.Add(4, "Four");
+//            dictionary.Add(5, "Five");
+
+//            Console.WriteLine("Dictionary Elements: ");
+//            foreach (KeyValuePair<int, string> i in dictionary)
+//            {
+//                Console.WriteLine($"Key: {i.Key}, Value: {i.Value}");
+
+//            }
+//            Console.WriteLine(dictionary);
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+using System.Reflection;
+
+//namespace Enum
+//{
+//    class EnumExample
+//    {
+//        enum Months
+//        {
+//            january=1,feb,mar,apr,may=150,jun=162,jul,aug,sep,oct,nov,dec
+//        }
+//        public static void Main(string[] args)
+//        {
+//            EnumExample example = new EnumExample();
+//            Console.WriteLine((int)Months.oct);
+//            int[] Values = (int[])Months.GetValues(typeof(Months));
+//            foreach (int value in Values)
+//            {
+//                Console.WriteLine(value);
+//            }
+//            Console.WriteLine(Months.jun);
+//        }
+//    }
+//}
+
+[Flags]
+public enum Days
+{
+    None = 0b_0000_0000,  // 0
+    Monday = 0b_0000_0001,  // 1
+    Tuesday = 0b_0000_0010,  // 2
+    Wednesday = 0b_0000_0100,  // 4
+    Thursday = 0b_0000_1000,  // 8
+    Friday = 0b_0001_0000,  // 16
+    Saturday = 0b_0010_0000,  // 32
+    Sunday = 0b_0100_0000,  // 64
+    Weekend = Saturday | Sunday
+}
+
+public class FlagsEnumExample
+{
+    public static void Main()
+    {
+        Days meetingDays = Days.Monday | Days.Wednesday | Days.Friday;
+        Console.WriteLine(meetingDays);
+        // Output:
+        // Monday, Wednesday, Friday
+
+        Days workingFromHomeDays = Days.Thursday | Days.Friday;
+        Console.WriteLine($"Join a meeting by phone on {meetingDays & workingFromHomeDays}");
+        // Output:
+        // Join a meeting by phone on Friday
+
+        bool isMeetingOnTuesday = (meetingDays & Days.Tuesday) == Days.Tuesday;
+        Console.WriteLine($"Is there a meeting on Tuesday: {isMeetingOnTuesday}");
+        // Output:
+        // Is there a meeting on Tuesday: False
+
+        var a = (Days)5;
+        Console.WriteLine(a);
+        // Output:
+        // Monday, Wednesday, Saturday
+    }
+}
